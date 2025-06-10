@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to LaTeX Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>STEM PDF to LaTeX Converter</h1>
+            <p>Upload your STEM exam PDF and get a LaTeX version back.</p>
+        </header>
+        <main>
+            <div class="upload-area" id="upload-area">
+                <p>Drag & Drop your PDF file here</p>
+                <p>or</p>
+                <button class="upload-btn" id="upload-btn">Browse Files</button>
+                <input type="file" id="file-input" accept=".pdf" hidden>
+            </div>
+            <div class="status" id="status"></div>
+        </main>
+        <footer>
+            <p>Powered by AI | Built on GitHub</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
